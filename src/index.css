@@ -1,0 +1,8 @@
+:root { font-family: Arial, sans-serif; color-scheme: light; }
+body { min-width: 280px; }
+#root { width: min(100%, 375px); }
+button, a, input { touch-action: manipulation; }
+a:focus-visible, button:focus-visible, input:focus-visible {
+  outline: 3px solid #e60039 !important;
+  outline-offset: 3px;
+}
